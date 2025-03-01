@@ -14,7 +14,7 @@ class Apodcontroller extends GetxController {
   }
 
   void getapod() async {
-    const String apikey = 'mGNRW1MWda0VXC7TyrSg3qDozgbDyHueh8bBOgd8';
+    const String apikey = '***********';
     var today = DateTime.now();
     var formattedDate =
         "${today.year}-${today.month.toString().padLeft(2, '0')}-${today.day.toString().padLeft(2, '0')}";
